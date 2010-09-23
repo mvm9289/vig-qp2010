@@ -1,0 +1,28 @@
+** Comentaris Entrega 3 **
+
+__Aclaracions__:
+
+	1. Entre els fanals seleccionats per l'usuari i els seleccionats automaticament per estar
+	davant del vehicle s'ha establert el funcionament següent:
+	
+		-Els fanals vermels prevaleixen sobre els blancs.
+		-Si un fanal blanc es selecciona per l'usuari es posa vermell.
+		-Si un fanal vermell es visible pel vehicle no canvia a blanc.
+		-Si un fanal vermell que es visible pel vehicle (i es dels 4 mes propers) es
+		seleccionat per l'usuari es posa blanc.
+		
+		
+	2. Per tal d'evitar confusions i fer pensar que es pot girar la camara en primera persona,
+	quan s'activa la vista en primera persona es desactiva el dial per reorientar el vehicle.
+	
+	
+	3. Per calcular els girs de la camara en primera persona es pot realitzar de forma facil de
+	dues maneres:
+	
+		-Trigonometria calculant el centre del vehicle i la direccio
+		-Transformacions geometriques amb open gl
+		
+	Posat que els girs del vehicle s'han realitzat amb transformacions geometriques, el gir
+	de la camara s'ha realitzat amb trigonometria, per canviar una mica.
+	
+	
